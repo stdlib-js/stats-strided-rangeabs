@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import rangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-rangeabs@deno/mod.js';
+import rangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-rangeabs@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-rangeabs@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-rangeabs@v0.1.1-deno/mod.js';
 ```
 
 #### rangeabs( N, x, strideX )
@@ -145,7 +145,7 @@ var v = rangeabs.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import rangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-rangeabs@deno/mod.js';
+import rangeabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-rangeabs@v0.1.1-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
